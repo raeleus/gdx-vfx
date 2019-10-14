@@ -65,6 +65,7 @@ public class EffectRosterViewController extends LmlViewController {
                 new EffectEntryModel("Old TV", new OldTvEffect()),
                 new EffectEntryModel("Noise", new NoiseEffect(0.35f, 2f)),
                 new EffectEntryModel("Underwater", new UnderwaterEffect(1f, 5f)),
+                new EffectEntryModel("Earthquake", new EarthquakeEffect(0.35f, 2f)),
                 new EffectEntryModel("Chrom. Abber.", new ChromaticAberrationEffect()),
                 new EffectEntryModel("Film Grain", new FilmGrainEffect()),
                 new EffectEntryModel("Gaussian Blur", new GaussianBlurEffect(8, GaussianBlurFilter.BlurType.Gaussian5x5)),
